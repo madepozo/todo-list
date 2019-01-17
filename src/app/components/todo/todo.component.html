@@ -1,0 +1,8 @@
+<div class="todo">
+  <div class="container">
+    <app-todo-title></app-todo-title>
+    <app-todo-form (addTodo)="addTodo($event)"></app-todo-form>
+    <app-todo-list [todos]="todos" (removeTodo)="removeTodo($event)">
+    </app-todo-list>
+  </div>
+</div>

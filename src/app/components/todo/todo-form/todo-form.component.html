@@ -1,0 +1,12 @@
+<div class="form">
+  <div class="field is-grouped">
+    <div class="control first">
+      <input class="input" type="text" [(ngModel)]="title" placeholder="Enter a todo" />
+    </div>
+    <div class="control">
+      <button [disabled]="!title" (click)="onClick()" class="button is-link">
+        <fa-icon icon="plus"></fa-icon>
+      </button>
+    </div>
+  </div>
+</div>

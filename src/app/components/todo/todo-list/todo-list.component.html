@@ -1,0 +1,13 @@
+<ul>
+  <li *ngFor="let todo of todos">
+    <span class="name">
+      {{ todo.title }}
+    </span>
+    <span class="remove icon" (click)="removeTodo.emit(todo)">
+      <fa-icon icon="trash-alt"></fa-icon>
+    </span>
+  </li>
+  <p *ngIf="!todos.length">
+    There no todos
+  </p>
+</ul>

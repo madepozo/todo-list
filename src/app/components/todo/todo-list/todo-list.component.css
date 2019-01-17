@@ -1,0 +1,33 @@
+ul {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+ul li {
+  border: 1px solid #f5f5f5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 16px;
+  margin-bottom: 2px;
+  width: 100%;
+}
+
+ul li .name {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+}
+
+ul li .remove {
+  cursor: pointer;
+  color: #ff3860;
+}
+
+p {
+  padding-left: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}

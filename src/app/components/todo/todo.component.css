@@ -1,0 +1,10 @@
+.todo {
+  border-radius: 4px;
+  margin: 16px auto;
+  padding: 16px;
+  width: 680px;
+}
+
+.todo .container {
+  width: 100%;
+}
